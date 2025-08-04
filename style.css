@@ -3,12 +3,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #13131F;
 
 }
 
 nav{
-    background-color: #333;
+    background-color: #13131F;
     padding: 15px;
+    border-bottom: solid 1px purple;
 }
 nav a{
     text-decoration: none;
@@ -27,4 +29,40 @@ nav ul{
   margin: 0 auto;
   display: flex;
   justify-content: flex-end;
+}
+.banner{
+    color: white;
+}
+span{
+color: #8257E6;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+section#sobre .container {
+    display: flex;
+    flex-direction: column;
+}
+
+section#sobre .banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10rem 2.5rem;
+}
+section#sobre .banner .intro .title h1 {
+    font-size: 4.2rem;
+    font-weight: 500;
+}
+section#sobre .banner .intro .title span {
+    font-size: 4.2rem;
+    font-weight: 500;
+}
+section#sobre .banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10rem 2.5rem;
 }
