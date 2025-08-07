@@ -2,7 +2,7 @@
 
 Este é um projeto de portfólio pessoal desenvolvido em HTML e CSS.
 
-![Imagem do Portfólio](images/portfolio.jpg)
+<img width="1900" height="888" alt="Image" src="https://github.com/user-attachments/assets/ccc250d5-a781-431f-bddc-202b857be7f0" />
 
 ## Sobre o Projeto
 
