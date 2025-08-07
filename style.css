@@ -45,7 +45,7 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 100px auto;
+    margin: 30px auto;
     padding: 20px;
     max-width: 1200px;
     gap: 40px;
@@ -104,11 +104,21 @@ a {
 .container-banner .sobre{
     color: #828282;
     text-align: -webkit-center;
-    padding: 100px;
+    padding: 60px 20px 40px;
     h2{
         color: #fff;
         padding: 20px;
     }
+}
+.container-projetos .projetos{
+    color: #828282;
+    text-align: -webkit-center;
+    h2{
+        color: #fff;
+        
+    }
+
+
 }
 /* Responsividade */
 
