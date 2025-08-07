@@ -1,80 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfólio | Matheus Camargo</title>
+    <!-- Google Fonts -->
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
-
-
 <body>
-    <nav>
+    <!-- Navegação principal -->
+    <nav aria-label="Navegação principal">
         <div class="container">
             <ul>
-                <li><a href="">Início</a></li>
-                <li><a href="">Contato</a></li>
-                <li><a href="">Sobre</a></li>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#sobre">Sobre</a></li>
             </ul>
         </div>
     </nav>
-    <section id="sobre">
-        <div class="container-banner">
-            <div class="textos">
-                <div class="titulo">
-                    <h1>Olá, eu sou o</h1>
-                    <span>Matheus Camargo :)</span>
+
+    <!-- Seção Sobre/Banner -->
+    <main id="inicio">
+        <section id="sobre">
+            <div class="container-banner">
+                <div class="textos">
+                    <div class="titulo">
+                        <h1>Olá, eu sou o</h1>
+                        <span>Matheus Camargo :)</span>
+                    </div>
+                    <div class="subtitulo">
+                        <p>
+                            Desenvolvedor Back-End Java | Spring Boot | Hibernate/JPA | Spring Data | APIs REST | Microsserviços | Maven | Docker | SQL | Testes Unitários
+                        </p>
+                    </div>
+                    <div class="buttons">
+                        <a href="#" class="btn" role="button">Download CV</a>
+                        <a href="#contato" class="btn" role="button">Entrar em contato</a>
+                    </div>
                 </div>
-                <div class="subtitulo">
+                <div class="foto">
+                    <img src="images/avatar.jpg" alt="Foto de Matheus Camargo" width="250" height="250">
+                </div>
+                <div class="sobre">
+                    <h2>Sobre mim</h2>
                     <p>
-                        Desenvolvedor Back-End Java | Spring Boot | Hibernate/JPA | Spring Data | APIs REST |
-                        Microsserviços | Maven | Docker | SQL | Testes Unitários
+                        Desenvolvedor Java com experiência no desenvolvimento de aplicações robustas e escaláveis utilizando Spring Boot, Spring Data JPA e Hibernate. Especialista na criação de APIs RESTful e na implementação de microsserviços seguindo boas práticas de arquitetura e padrões de projeto.<br><br>
+                        Domínio de persistência de dados com JPA/Hibernate e bancos relacionais como MySQL e PostgreSQL, além de experiência com Maven para automação de build e gerenciamento de dependências.<br><br>
+                        Familiaridade com Docker para conteinerização de aplicações, Git/GitHub para controle de versão e JUnit/Mockito para testes unitários e de integração.<br><br>
+                        Busco constantemente aprimorar minhas habilidades em Java, Spring Ecosystem e tecnologias de arquitetura de microsserviços, entregando soluções eficientes, seguras e de alta qualidade.
                     </p>
                 </div>
-                <div class="buttons">
-                    <button>Download CV</button>
-                    <button>Entrar em contato</button>
+            </div>
+        </section>
 
+        <!-- Seção Projetos -->
+        <section id="projetos">
+            <div class="container-projetos">
+                <div class="projetos">
+                    <h2>Projetos</h2>
                 </div>
+                <ul class="lista-projetos">
+                    <li><img src="" alt="Projeto 1"></li>
+                    <li><img src="" alt="Projeto 2"></li>
+                    <li><img src="" alt="Projeto 3"></li>
+                    <li><img src="" alt="Projeto 4"></li>
+                    <li><img src="" alt="Projeto 5"></li>
+                </ul>
             </div>
-            <div class="foto">
-                <img src="images/avatar.jpg" alt="avatar">
-            </div>
-            <div class="sobre">
-                <h2>Sobre mim</h2>
-                <p>Desenvolvedor Java com experiência no desenvolvimento de aplicações robustas e escaláveis utilizando
-                    Spring Boot, Spring Data JPA e Hibernate. Especialista na criação de APIs RESTful e na implementação
-                    de microsserviços seguindo boas práticas de arquitetura e padrões de projeto.
+        </section>
+    </main>
 
-                    Domínio de persistência de dados com JPA/Hibernate e bancos relacionais como MySQL e PostgreSQL,
-                    além de experiência com Maven para automação de build e gerenciamento de dependências.
-
-                    Familiaridade com Docker para conteinerização de aplicações, Git/GitHub para controle de versão e
-                    JUnit/Mockito para testes unitários e de integração.
-
-                    Busco constantemente aprimorar minhas habilidades em Java, Spring Ecosystem e tecnologias de
-                    arquitetura de microsserviços, entregando soluções eficientes, seguras e de alta qualidade.</p>
-            </div>
+    <!-- Rodapé (opcional) -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Matheus Camargo. Todos os direitos reservados.</p>
         </div>
-    </section>
-    <section id="projeto">
-        <div class="container-projetos">
-            
-            <div class="projetos"><h2>Projetos</h2></div>
-            <div> <img src="" alt=""></div>
-            <div> <img src="" alt=""></div>
-            <div><img src="" alt=""></div>
-            <div><img src="" alt=""></div>
-            <div> <img src="" alt=""></div>
-            
-        </div>
-    </section>
+    </footer>
 </body>
-
 </html>
